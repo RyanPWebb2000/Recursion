@@ -10,13 +10,7 @@ public class Cake {
 	public void takeABite() {
 		--bites;
 		
-		System.out.println("Hmm.. Tastey");
-		
-		if(isEmpty()) {
-			System.out.println("Aww.. All gone");
-			return;
-		}
-		
+		System.out.println("Hmm..");
 	}
 	
 	public boolean isEmpty() {
